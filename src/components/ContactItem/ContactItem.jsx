@@ -10,7 +10,7 @@ export const ContactItem = ({ contact }) => {
   return (
     <>
       <Span>
-        {contact.name}: <span className="List_span">{contact.number}</span>
+        {contact.name}: <Span>{contact.number}</Span>
       </Span>
       <Button onClick={handleDelete}>delete</Button>
     </>
